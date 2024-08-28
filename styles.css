@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.keyboard {
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.key {
+    padding: 15px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.key:hover {
+    background-color: #bbb;
+}
+
+.key:active {
+    background-color: #999;
+}
+
+.key#Space {
+    width: 150px;
+}
+
+.key#Backspace {
+    width: 120px;
+}
